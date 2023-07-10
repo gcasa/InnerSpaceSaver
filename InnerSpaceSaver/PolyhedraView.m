@@ -2,22 +2,22 @@
 // PolyhedraView  -  a flexible, bouncing polyhedron.
 //
 
-#include "PolyhedraView.h"
-#include "PolyhedraViewWraps.h"
+#import "PolyhedraView.h"
+#import "PolyhedraViewWraps.h"
 
-#include <Foundation/NSBundle.h>
-#include <AppKit/NSNibLoading.h>
-#include <AppKit/NSGraphics.h>
-#include <AppKit/NSMatrix.h>
+#import <Foundation/NSBundle.h>
+#import <AppKit/NSNibLoading.h>
+#import <AppKit/NSGraphics.h>
+#import <AppKit/NSMatrix.h>
 
 #ifdef GNUSTEP
-#include <AppKit/PSOperators.h>
+#import <AppKit/PSOperators.h>
 #else
-#include "PSOperators.h"
+#import "PSOperators.h"
 #endif
 
-#include <math.h>
-#include <stdlib.h>
+#import <math.h>
+#import <stdlib.h>
 
 #ifdef WIN32
 #define MAXPATHLEN MAX_PATH
@@ -822,7 +822,7 @@ CGFloat distance(CGFloat xcrd, CGFloat ycrd, CGFloat zcrd)
     {
         polyhedron   = 3; // random() % 5;
         selectedIndex = polyhedron;
-        [selectionMatrix selectCellAtRow:polyhedron column:0];
+        // [selectionMatrix selectCellAtRow:polyhedron column:0];
     }
     else
     {
@@ -922,6 +922,7 @@ CGFloat distance(CGFloat xcrd, CGFloat ycrd, CGFloat zcrd)
     // return self;
 }
 
+/*
 - (id)inspector: (id)sender
 {
     if (!inspectorPanel)
@@ -933,6 +934,7 @@ CGFloat distance(CGFloat xcrd, CGFloat ycrd, CGFloat zcrd)
     }
     return inspectorPanel;
 }
+*/
 
 - (BOOL) useBufferedWindow
 {	

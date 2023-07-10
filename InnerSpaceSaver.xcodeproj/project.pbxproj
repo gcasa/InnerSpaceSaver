@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		14426CFD2A5B5AAB00BE7A82 /* InnerSpaceSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 14426CFC2A5B5AAB00BE7A82 /* InnerSpaceSaverView.h */; };
 		14426CFF2A5B5AAB00BE7A82 /* InnerSpaceSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14426CFE2A5B5AAB00BE7A82 /* InnerSpaceSaverView.m */; };
+		14426D072A5B5AF800BE7A82 /* PSOperators.h in Headers */ = {isa = PBXBuildFile; fileRef = 14426D052A5B5AF800BE7A82 /* PSOperators.h */; };
+		14426D082A5B5AF800BE7A82 /* PSOperators.m in Sources */ = {isa = PBXBuildFile; fileRef = 14426D062A5B5AF800BE7A82 /* PSOperators.m */; };
+		14426D0D2A5BAF3100BE7A82 /* PolyhedraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14426D092A5BAF3100BE7A82 /* PolyhedraView.m */; };
+		14426D0E2A5BAF3100BE7A82 /* PolyhedraViewWraps.m in Sources */ = {isa = PBXBuildFile; fileRef = 14426D0A2A5BAF3100BE7A82 /* PolyhedraViewWraps.m */; };
+		14426D0F2A5BAF3100BE7A82 /* PolyhedraViewWraps.h in Headers */ = {isa = PBXBuildFile; fileRef = 14426D0B2A5BAF3100BE7A82 /* PolyhedraViewWraps.h */; };
+		14426D102A5BAF3100BE7A82 /* PolyhedraView.h in Headers */ = {isa = PBXBuildFile; fileRef = 14426D0C2A5BAF3100BE7A82 /* PolyhedraView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14426CF92A5B5AAB00BE7A82 /* InnerSpaceSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnerSpaceSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		14426CFC2A5B5AAB00BE7A82 /* InnerSpaceSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InnerSpaceSaverView.h; sourceTree = "<group>"; };
 		14426CFE2A5B5AAB00BE7A82 /* InnerSpaceSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InnerSpaceSaverView.m; sourceTree = "<group>"; };
+		14426D052A5B5AF800BE7A82 /* PSOperators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSOperators.h; sourceTree = "<group>"; };
+		14426D062A5B5AF800BE7A82 /* PSOperators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSOperators.m; sourceTree = "<group>"; };
+		14426D092A5BAF3100BE7A82 /* PolyhedraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolyhedraView.m; sourceTree = "<group>"; };
+		14426D0A2A5BAF3100BE7A82 /* PolyhedraViewWraps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolyhedraViewWraps.m; sourceTree = "<group>"; };
+		14426D0B2A5BAF3100BE7A82 /* PolyhedraViewWraps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolyhedraViewWraps.h; sourceTree = "<group>"; };
+		14426D0C2A5BAF3100BE7A82 /* PolyhedraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolyhedraView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,12 @@
 		14426CFB2A5B5AAB00BE7A82 /* InnerSpaceSaver */ = {
 			isa = PBXGroup;
 			children = (
+				14426D0C2A5BAF3100BE7A82 /* PolyhedraView.h */,
+				14426D092A5BAF3100BE7A82 /* PolyhedraView.m */,
+				14426D0B2A5BAF3100BE7A82 /* PolyhedraViewWraps.h */,
+				14426D0A2A5BAF3100BE7A82 /* PolyhedraViewWraps.m */,
+				14426D052A5B5AF800BE7A82 /* PSOperators.h */,
+				14426D062A5B5AF800BE7A82 /* PSOperators.m */,
 				14426CFC2A5B5AAB00BE7A82 /* InnerSpaceSaverView.h */,
 				14426CFE2A5B5AAB00BE7A82 /* InnerSpaceSaverView.m */,
 			);
@@ -60,7 +78,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14426D102A5BAF3100BE7A82 /* PolyhedraView.h in Headers */,
+				14426D0F2A5BAF3100BE7A82 /* PolyhedraViewWraps.h in Headers */,
 				14426CFD2A5B5AAB00BE7A82 /* InnerSpaceSaverView.h in Headers */,
+				14426D072A5B5AF800BE7A82 /* PSOperators.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14426D082A5B5AF800BE7A82 /* PSOperators.m in Sources */,
 				14426CFF2A5B5AAB00BE7A82 /* InnerSpaceSaverView.m in Sources */,
+				14426D0D2A5BAF3100BE7A82 /* PolyhedraView.m in Sources */,
+				14426D0E2A5BAF3100BE7A82 /* PolyhedraViewWraps.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

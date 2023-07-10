@@ -8,8 +8,7 @@
 //
 
 
-#include <AppKit/NSView.h>
-#include "BackView.h"
+#import <AppKit/NSView.h>
 
 //#define SPRING_K              0.2
 #define SPRING_K                0.15
@@ -76,7 +75,7 @@ extern CGFloat randBetween(CGFloat lower, CGFloat upper);
   BOOL		noAnimation;
   NSInteger		backStep;
   IBOutlet id   inspectorPanel;
-  IBOutlet NSMatrix *selectionMatrix;
+  // IBOutlet NSMatrix *selectionMatrix;
 }
 
 - (void) oneStep;
@@ -91,7 +90,7 @@ extern CGFloat randBetween(CGFloat lower, CGFloat upper);
 
 - (IBAction)setSelectedIndex:sender;
 - (IBAction)kickIt:sender;
-- inspector:sender;
+// - inspector:sender;
 - (NSImage *)preview;
 
 @end

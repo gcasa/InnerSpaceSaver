@@ -23,13 +23,13 @@
     14218 Oxford Drive, Laurel, MD 20707, USA
 */
 
-#include "PolyhedraViewWraps.h"
+#import "PolyhedraViewWraps.h"
 
 // translated from the pswraps for GNUstep/MOSX by Gregory John Casamento
 #ifdef GNUSTEP
-#include <AppKit/PSOperators.h>
+#import <AppKit/PSOperators.h>
 #else
-#include "PSOperators.h"
+#import "PSOperators.h"
 #endif
 
 void colourTriangle(float x1, 

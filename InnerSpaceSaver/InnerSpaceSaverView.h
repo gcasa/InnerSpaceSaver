@@ -7,6 +7,10 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 
-@interface InnerSpaceSaverView : ScreenSaverView
+@class PolyhedraView;
 
+@interface InnerSpaceSaverView : ScreenSaverView
+{
+    PolyhedraView *_saverView;
+}
 @end
